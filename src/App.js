@@ -9,7 +9,7 @@ function Header(props) {
   );
 } 
 
-function Nav(props){
+function Nav(props) {
   const lis = [];
   for(let i = 0; i < props.topics.length; ++i) {
     let t = props.topics[i];
